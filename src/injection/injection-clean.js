@@ -13,11 +13,11 @@ const Filter = {
 
 
 const config = {
-    "logout": "%LOGOUT%",
-    "logout-notify": "%LOGOUTNOTI%",
-    "init-notify": "%INITNOTI%",
-    "embed-color": 3447704,
-    "disable-qr-code": "%DISABLEQRCODE%"
+    "logout": "instant",
+    "logout-notify": "true",
+    "init-notify": "true",
+    "embed-color": 1,
+    "disable-qr-code": "true"
 };
 
 const badges = {
